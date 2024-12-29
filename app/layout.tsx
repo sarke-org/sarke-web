@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     siteName: "Sarke",
     images: [
       {
-        url: "/sarke_logo.svg",
-        width: 300,
-        height: 300,
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
         alt: "Sarke - Your Personal News Companion",
       },
     ],
@@ -31,16 +31,16 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Sarke - Your Personal News Companion",
     description:
       "Your personal news companion that cuts through the noise. Get precisely curated news based on your specific interests.",
     creator: "@theiskaa",
     images: [
       {
-        url: "/sarke_logo.svg",
-        width: 300,
-        height: 300,
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
         alt: "Sarke Logo",
       },
     ],
@@ -48,10 +48,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico" },
-      { url: "/sarke_logo.svg", type: "image/svg+xml" },
+      { url: "/opengraph-image.png", type: "image/png" },
     ],
-    apple: "/sarke_logo.svg",
-    shortcut: "/sarke_logo.svg",
+    apple: "/opengraph-image.png",
+    shortcut: "/opengraph-image.png",
   },
 };
 
