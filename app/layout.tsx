@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/sarke_logo.svg",
-        width: 1200,
-        height: 630,
+        width: 300,
+        height: 300,
         alt: "Sarke - Your Personal News Companion",
       },
     ],
@@ -31,12 +31,19 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "Sarke - Your Personal News Companion",
     description:
       "Your personal news companion that cuts through the noise. Get precisely curated news based on your specific interests.",
     creator: "@theiskaa",
-    images: ["/sarke_logo.svg"],
+    images: [
+      {
+        url: "/sarke_logo.svg",
+        width: 300,
+        height: 300,
+        alt: "Sarke Logo",
+      },
+    ],
   },
   icons: {
     icon: [
