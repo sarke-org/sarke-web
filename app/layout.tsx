@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Sarke",
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "/opengraph_image.png",
         width: 1200,
         height: 630,
         alt: "Sarke - Your Personal News Companion",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     creator: "@theiskaa",
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "/opengraph_image.png",
         width: 1200,
         height: 630,
         alt: "Sarke Logo",
@@ -46,12 +46,8 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/opengraph-image.png", type: "image/png" },
-    ],
-    apple: "/opengraph-image.png",
-    shortcut: "/opengraph-image.png",
+    icon: "/sarke_logo.svg",
+    apple: "/sarke_logo.svg",
   },
 };
 
