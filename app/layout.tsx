@@ -1,8 +1,12 @@
 import "@/app/globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Merriweather } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const merriweather = Merriweather({
+  weight: ["400", "700", "900"],
+  subsets: ["latin"],
+  variable: "--font-merriweather",
+});
 
 export const metadata: Metadata = {
   title: "Sarke - Your Personal News Companion",
@@ -50,8 +54,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${merriweather.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }
