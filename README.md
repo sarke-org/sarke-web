@@ -1,3 +1,3 @@
 # Sarke Web
 
-![preview](https://github.com/user-attachments/assets/76c37f02-5c52-47cd-81cd-d271cb23100a)
+![preview](https://github.com/user-attachments/assets/2d7cd017-b8cf-47af-8044-c30da014b87d)
